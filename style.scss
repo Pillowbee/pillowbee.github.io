@@ -34,7 +34,7 @@ html, body {
         border-bottom: 3px $border solid;
         height: 10%;
         &:hover:not(.logo):not(.count) {
-            width: 500%;
+            width: 600%;
             p {
                 display: inline-block;
             }
@@ -44,20 +44,14 @@ html, body {
         }
         .count {
             display: none;
-            position: relative;
-            left: 5vw;
-            width: 12%;
-            height: 100%;
-            background: #ffffff;
-            border: none;
+            left: 3vw;
+            top: 20%;
+            margin-left: 20px;
+            width: 10%;
+            font-size: 64px;
+            font-weight: 100;
             text-align: center;
-            span {
-                left: 0;
-                top: 0;
-                color: #aaa;
-                font-size: 72px;
-                font-weight: 100;
-            }
+            vertical-align: top;
         }
     }
     p {

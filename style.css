@@ -27,26 +27,21 @@ html, body {
     border-bottom: 3px #1f1f1f solid;
     height: 10%; }
     .left-bar div:hover:not(.logo):not(.count) {
-      width: 500%; }
+      width: 600%; }
       .left-bar div:hover:not(.logo):not(.count) p {
         display: inline-block; }
       .left-bar div:hover:not(.logo):not(.count) .count {
         display: inline-block; }
     .left-bar div .count {
       display: none;
-      position: relative;
-      left: 5vw;
-      width: 12%;
-      height: 100%;
-      background: #ffffff;
-      border: none;
-      text-align: center; }
-      .left-bar div .count span {
-        left: 0;
-        top: 0;
-        color: #aaa;
-        font-size: 72px;
-        font-weight: 100; }
+      left: 3vw;
+      top: 20%;
+      margin-left: 20px;
+      width: 10%;
+      font-size: 64px;
+      font-weight: 100;
+      text-align: center;
+      vertical-align: top; }
   .left-bar p {
     display: none;
     position: relative;
