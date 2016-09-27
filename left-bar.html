@@ -1,15 +1,12 @@
 <div class="left-bar">
-    <div class="logo">
-        <span>calm</span>
-    </div>
     <div class="man">
         <i class="fa fa-user fa-lg" aria-hidden="true"></i>
         <p>Guided calm</p>
-        <span class="count">2</span>
-        <span class="count">5</span>
-        <span class="count">10</span>
-        <span class="count">15</span>
-        <span class="count">20</span>
+        <span class="count" ng-class="{ 'active-count':leftBar.isCurrent(1) }" ng-click="leftBar.setCurrent(1)">2</span>
+        <span class="count" ng-class="{ 'active-count':leftBar.isCurrent(2) }" ng-click="leftBar.setCurrent(2)">5</span>
+        <span class="count" ng-class="{ 'active-count':leftBar.isCurrent(3) }" ng-click="leftBar.setCurrent(3)">10</span>
+        <span class="count" ng-class="{ 'active-count':leftBar.isCurrent(4) }" ng-click="leftBar.setCurrent(4)">15</span>
+        <span class="count" ng-class="{ 'active-count':leftBar.isCurrent(5) }" ng-click="leftBar.setCurrent(5)">20</span>
     </div>
     <div class="watch">
         <i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>
@@ -21,6 +18,6 @@
     </div>
     <div class="help">
         <i class="fa fa-question-circle fa-lg" aria-hidden="true"></i>
-        <p>Info</p>
+        <p>Help</p>
     </div>
 </div>

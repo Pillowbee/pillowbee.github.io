@@ -23,7 +23,20 @@
     app.directive('leftBar', function () {
         return {
             restrict: 'E',
-            templateUrl: 'left-bar.html'
+            templateUrl: 'left-bar.html',
+            controller: function () {
+                this.current = 1;
+
+                this.isCurrent = function (current) {
+                    return this.current === current;
+                };
+
+                this.setCurrent = function (current) {
+                  this.current = current;
+                  console.log(this.current);
+                }
+            },
+            controllerAs: 'leftBar'
         }
     })
 })();
